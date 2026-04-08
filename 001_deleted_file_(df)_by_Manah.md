@@ -2,9 +2,9 @@
 
 [🧩Statement](#)
 
-Your cousin found a USB drive in the library this morning. 
-He’s not very good with computers, so he’s hoping you can find the owner of this stick!
-The flag is the owner’s identity in the form firstname_lastname
+Your cousin found a USB drive in the library this morning.  
+He’s not very good with computers, so he’s hoping you can find the owner of this stick!  
+The flag is the owner’s identity in the form "firstname_lastname".  
 
 [🔍 Initial Analysis](#)
 
@@ -15,4 +15,3 @@ The flag is the owner’s identity in the form firstname_lastname
 [⚠️ Difficulties](#)
 
 [📚 Lessons Learned](#)
-
