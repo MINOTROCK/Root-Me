@@ -8,10 +8,60 @@ The flag is the owner’s identity in the form "firstname_lastname".
 
 [🔍 Initial Analysis](#)
 
+
+
+
+
+
+
+
+
+
+
 [💡 Hypothesis](#)
+
+
+
+
+
+
+
+
+
+
 
 [🛠️ Exploitation](#)
 
+
+
+
+
+
+
+
+
+
+
 [⚠️ Difficulties](#)
 
+
+
+
+
+
+
+
+
+
+
 [📚 Lessons Learned](#)
+
+
+
+
+
+
+
+
+
+
