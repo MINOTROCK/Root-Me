@@ -12,7 +12,7 @@ Before reading the list, please note that a CSV version is available: "LIST.csv"
 
 ---
 
-[Deleted file](https://github.com/MINOTROCK/Root-Me/blob/main/001_deleted_file_(df)_by_Manah.md)
+[Deleted file](https://github.com/MINOTROCK/Root-Me/blob/main/001_deleted_file_(df)_by_Manah.md)🔗
 
 **Category:** Forensic  
 **Points:** 5  
@@ -28,7 +28,7 @@ Your cousin found a USB drive in the library this morning. He’s not very good 
 
 ---
 
-[Capture this](https://github.com/MINOTROCK/Root-Me/blob/main/002_capture_this_(ct)_by_Zey_Roxx.md)
+[Capture this](https://github.com/MINOTROCK/Root-Me/blob/main/002_capture_this_(ct)_by_Zey_Roxx.md)🔗
 
 **Category:** Forensic  
 **Points:** 15  
