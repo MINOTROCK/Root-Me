@@ -24,8 +24,16 @@ I examinated the file "ch39" with Notepad and found something that looks like a 
 ![Analysis with Notepad](assets/images/001_df.png)
 
 I entered the name in the correct format in the answer field, and it worked.  
-Then I checked other solutions and found that there was a hidden image on the USB drive.
-So
+After reviewing other solutions, I discovered that the USB drive also contained a hidden image.  
+Based on this information, I used the following command:
+
+```bash
+foremost -i ch39
+```
+
+And i got this:
+
+![hidden picture](assets/images/002_df.png)
 
 [⚠️ Difficulties](#)
 
