@@ -16,9 +16,9 @@ I want to reach 1000 points before september 2026
 **Points:** 5  
 **Level:** Very easy  
 **Author:** Manah  
-**Date:** 24/05/2023
-**Openning:** 05/04/2026
-**Validating:** 05/04/2026
+**Date:** 24/05/2023  
+**Openning:** 05/04/2026  
+**Validating:** 05/04/2026  
 
 **Statement**
 
@@ -32,9 +32,9 @@ Your cousin found a USB drive in the library this morning. He’s not very good 
 **Points:** 15  
 **Level:** easy  
 **Author:** Zey_Roxx  
-**Date:** 20/10/2023
-**Openning:** 05/04/2026
-**Validating:** 08/04/2026
+**Date:** 20/10/2023  
+**Openning:** 05/04/2026  
+**Validating:** 08/04/2026  
 
 **Statement**
 
