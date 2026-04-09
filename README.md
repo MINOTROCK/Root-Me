@@ -2,7 +2,7 @@
 
 This repository contains all my write-ups for the Root Me CTF challenges I have completed.
 
-The goal is to documentate my progress on the Root Me platform.
+The goal is to document my progress on the Root Me platform.
 
 I want to reach 1000 points before September 2026.
 
