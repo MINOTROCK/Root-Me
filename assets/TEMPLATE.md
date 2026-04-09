@@ -1,4 +1,4 @@
-[Template by MINOTROCK](https://www.root-me.org)
+[Template by MINOTROCK](https://www.root-me.org)🔗
 
 [🧩Statement](#)
 
