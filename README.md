@@ -1,4 +1,4 @@
-**=== # Root-Me ===**
+# Root-Me
 
 This repository contains all my write-ups for the Root Me CTF challenges I have completed.
 
@@ -8,11 +8,9 @@ I want to reach 1000 points before September 2026.
 
 Before reading the list, please note that a CSV and an Excel version is available: `LIST.csv` or `LIST.xlsx`.
   
-**=== ## List ===**
+## List
 
----
-
-[### Deleted file](https://github.com/MINOTROCK/Root-Me/blob/main/001_deleted_file_(df)_by_Manah.md)🔗
+### [ Deleted file](https://github.com/MINOTROCK/Root-Me/blob/main/001_deleted_file_(df)_by_Manah.md)🔗
 
 🔎 **Category:** Forensic 🏆 **Points:** 5 🟢 **Level:** Very easy 👤 **Author:** Manah 🗓️ **Date:** 24/05/2023 ✅ **Validating:** 05/04/2026  
 
@@ -22,7 +20,7 @@ Your cousin found a USB drive in the library this morning. He’s not very good 
 
 ---
 
-[### Capture this](https://github.com/MINOTROCK/Root-Me/blob/main/002_capture_this_(ct)_by_Zey_Roxx.md)🔗
+### [Capture this](https://github.com/MINOTROCK/Root-Me/blob/main/002_capture_this_(ct)_by_Zey_Roxx.md)🔗
 
 🔎 **Category:** Forensic 🏆 **Points:** 15 🟡 **Level:** easy 👤 **Author:** Zey_Roxx 🗓️ **Date:** 20/10/2023 ✅ **Validating:** 08/04/2026  
 
