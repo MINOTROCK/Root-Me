@@ -1,4 +1,4 @@
-# [Capture this]([https://www.root-me.org](https://www.root-me.org/en/Challenges/Forensic/Capture-this))🔗
+# [Capture this🔗]([https://www.root-me.org](https://www.root-me.org/en/Challenges/Forensic/Capture-this))
 
 <details>
 
@@ -40,6 +40,33 @@ So I don't see anything suspicious one the screenshot, maybe the flag is just on
 I think I'll just test these 4 
 
 ## 🛠️ Exploitation
+
+So we have 4 passwords to test in the keepass or in the answer field, obviously any of them works...,
+but I noted that there is a little piece of begining of word on the right edge.
+I was realy lost at this moment, I mean how can I recover something cropped ?!?!?
+
+This made me think at somathing, you know sometimes when you crop an image if you open it with the same editor you can see the rest.
+So i tested to open it with the `Windows Snipping Tool` and used the crop fonction, but nothing special happened.
+
+I went on the [Root-Me Discord server](https://discord.gg/rootme) and I covered up interesting informations.
+
+![Discord Screenshot](assets/images/004_ct.png)
+
+<details>
+  <summary>Voir la traduction</summary>
+
+  Ceci est le texte traduit.
+
+</details>
+
+![Discord Screenshot](assets/images/005_ct.png)
+
+<details>
+  <summary>Voir la traduction</summary>
+
+  Ceci est le texte traduit.
+
+</details>
 
 ## ⚠️ Difficulties
 
