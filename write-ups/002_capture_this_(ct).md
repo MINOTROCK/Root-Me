@@ -45,7 +45,7 @@ So we have 4 passwords to test in the keepass or in the answer field, obviously 
 but I noted that there is a little piece of begining of word on the right edge.  
 I was realy lost at this moment, I mean how can I recover something cropped ?!?!?
 
-This made me think at somathing, you know sometimes when you crop an image if you open it with the same editor you can see the rest.  
+This made me think at something, you know sometimes when you crop an image if you open it with the same editor you can see the rest.  
 So i tested to open it with the `Windows Snipping Tool` and used the crop fonction, but nothing special happened.
 
 I went on the [Root-Me Discord server](https://discord.gg/rootme) and I covered up interesting informations.
