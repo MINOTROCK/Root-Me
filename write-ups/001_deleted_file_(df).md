@@ -51,7 +51,7 @@ nano ch39
 This time, no freezing occurred when using `nano`.  
 While examining the file `ch39` I found something that looked like a name.
 
-![Analysis with nano](assets/images/001_df.png)
+![Analysis with nano](../assets/images/001_df.png)
 
 I entered the name in the correct format in the answer field, and it worked.  
 After reviewing other solutions, I discovered that the USB drive also contained an hidden image.  
@@ -63,7 +63,7 @@ foremost -i ch39
 
 This resulted in the recovery of additional files:
 
-![hidden picture](assets/images/002_df.png)
+![hidden picture](../assets/images/002_df.png)
 
 I also tried:
 
