@@ -115,12 +115,7 @@ and we got this:
 ![Clean.png](../assets/images/006_ct.png)
 
 The result is the same visible image, but it now weighs `160 KB`, compared to `568 KB` for the original. The difference is huge!  
-This confirms that a large amount of hidden data was appended.
-
-
-
-
-Yes it the same image, but this one weidght `160 KB` the original weidght was `568 Kb`, the diferrence is so hudge !!!  
+This confirms that a large amount of hidden data was appended.  
 Next, I cloned the [Github repository](https://github.com/frankthetank-music/Acropalypse-Multi-Tool) related to the vulnerability.
 
 I tried to run the `Python` program using `WSL Kali-Linux` but it displayed an `error` related to an "externally-managed-environment".  
@@ -144,10 +139,9 @@ First, enter the password in the answer field, then unlock the `KeePass` databas
 
 ## ⚠️ Difficulties
 
-At the beggining, I took some time to find the right approach.  
-Fortunately the [Root-Me Discord server](https://discord.gg/rootme) gave me a clue,  
-but the hardest part was using the tool, only one method in one environement actually worked.  
-It was really frustrating to have the solution in my hands but not be able to use it.
+Several approaches were explored before identifying the right path.    
+The hardest part was using the tool, only one method in one environement actually worked.  
 
 ## 📚 Lessons Learned
+
 
