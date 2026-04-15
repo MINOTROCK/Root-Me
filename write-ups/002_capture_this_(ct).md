@@ -1,4 +1,4 @@
-# [Capture this🔗]([https://www.root-me.org](https://www.root-me.org/en/Challenges/Forensic/Capture-this))
+# [Capture this]([https://www.root-me.org](https://www.root-me.org/en/Challenges/Forensic/Capture-this))
 
 <details>
 
