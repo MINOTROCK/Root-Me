@@ -1,4 +1,4 @@
-### [Capture this🔗](https://www.root-me.org/en/Challenges/Forensic/Capture-this)
+# [Capture this🔗](https://www.root-me.org/en/Challenges/Forensic/Capture-this)
 
 <details>
 
@@ -128,7 +128,13 @@ Witch result in this.
 
 ![Restored.png](../assets/images/009_ct.png)
 
+Now we ca see the cropped part, it was long but it's realy statifying,  
+first you have to type the password in th answer field then you have to unlock the `KeePass` to see the real flag.
+
+![KeePass](../assets/images/010_ct.png)
 
 ## ⚠️ Difficulties
+
+At the beggining, I took time to find the correct strategien, hopefully
 
 ## 📚 Lessons Learned
