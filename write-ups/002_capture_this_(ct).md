@@ -41,11 +41,11 @@ I think I'll just test these 4
 
 ## 🛠️ Exploitation
 
-So we have 4 passwords to test in the keepass or in the answer field, obviously any of them works...,
-but I noted that there is a little piece of begining of word on the right edge.
+So we have 4 passwords to test in the keepass or in the answer field, obviously any of them works...,  
+but I noted that there is a little piece of begining of word on the right edge.  
 I was realy lost at this moment, I mean how can I recover something cropped ?!?!?
 
-This made me think at somathing, you know sometimes when you crop an image if you open it with the same editor you can see the rest.
+This made me think at somathing, you know sometimes when you crop an image if you open it with the same editor you can see the rest.  
 So i tested to open it with the `Windows Snipping Tool` and used the crop fonction, but nothing special happened.
 
 I went on the [Root-Me Discord server](https://discord.gg/rootme) and I covered up interesting informations.
@@ -96,11 +96,11 @@ grep -abo IEND Capture.png
 <details>
   <summary>note</summary>
 
-  when you use `grep` to search somthing in a binary file, you have to use `-a`, here `-bo` is just to facilitate the reading.
+  when you use `grep` to search somthing in a binary file, you have to use `-a`, here `-bo` is just to facilitate the reading.  
 
 </details>
 
-Definitely there is something wrong with this screenshot, the `IEND` is a marquer used to signal the end of a `.png` file.
+Definitely there is something wrong with this screenshot, the `IEND` is a marquer used to signal the end of a `.png` file.  
 Normaly ther is only one, I'll try somethning else, I'll remove the unused part to see what happen:
 
 ```bash
@@ -112,13 +112,13 @@ and we got this:
 
 ![Clean.png](../assets/images/006_ct.png)
 
-Yes it the same image, but this one weidght `160 Ko` the original weidght was `568 Ko`, the diferrence is so hudge !!!
+Yes it the same image, but this one weidght `160 Ko` the original weidght was `568 Ko`, the diferrence is so hudge !!!  
 Now let's go find and clone the [Github repository](https://github.com/frankthetank-music/Acropalypse-Multi-Tool).
 
 I tested to start the `Python` program with `WSL Kali-Linux` but it displays an `Error Message` due a "externally-managed-environment".  
 I tried to use `Docker` but is not work on `Windows` and `WSL Kali-Linux`, so I used `VMware` but the image selector is broken...  
 I also attempted to use the used the `Python` command but one of the two dependencies does not support last `Python` releases.  
-My last choice was to use `Pyenv` you can use a `virtuel environement` of `Python`, I configured it to the `3.11.9 version`.
+My last choice was to use `Pyenv` you can use a `virtuel environement` of `Python`, I configured it to the `3.11.9 version`.  
 Finaly we got this.
 
 ![Acropalypse-Multi-Tool1](../assets/images/007_ct.png)
@@ -135,6 +135,10 @@ first you have to type the password in th answer field then you have to unlock t
 
 ## ⚠️ Difficulties
 
-At the beggining, I took time to find the correct strategien, hopefully
+At the beggining, I took time to find the correct strategien,  
+hopefully the [Root-Me Discord server](https://discord.gg/rootme) gave me an clue  
+but the worst was to use the tool, only one metho in one environemtn was still fonctional.  
+It was realy frustratiing to have the solution between your hands but cant be able to use it.
 
 ## 📚 Lessons Learned
+
