@@ -1,4 +1,4 @@
-### [Deleted File🔗](https://www.root-me.org/en/Challenges/Forensic/Deleted-file)
+# [Deleted File🔗](https://www.root-me.org/en/Challenges/Forensic/Deleted-file)
 
 <details>
 
