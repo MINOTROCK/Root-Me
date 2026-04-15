@@ -53,7 +53,7 @@ While examining the file `ch39` I found something that looked like a name.
 
 ![Analysis with nano](../assets/images/001_df.png)
 
-I entered the name in the correct format in the answer field, and it worked.  
+I entered the name in the correct format in the answer field, and validated the challenge.  
 After reviewing other solutions, I discovered that the USB drive also contained an hidden image.  
 Based on this information, I used the following command:
 
