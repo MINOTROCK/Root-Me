@@ -30,7 +30,7 @@ It’s up to you
 The archive contains a file named `Database.kdbx`, it's can be open with `keePass`,  
 and the file `Capture.png`, which look like this:  
 
-![Capture.png](assets/images/003_ct.png)
+![Capture.png](../assets/images/003_ct.png)
 
 This screenshot contains 4 passwords.
 
@@ -50,7 +50,7 @@ So i tested to open it with the `Windows Snipping Tool` and used the crop foncti
 
 I went on the [Root-Me Discord server](https://discord.gg/rootme) and I covered up interesting informations.
 
-![Discord Screenshot](assets/images/004_ct.png)
+![Discord Screenshot](../assets/images/004_ct.png)
 
 <details>
   <summary>translation</summary>
@@ -63,7 +63,7 @@ I went on the [Root-Me Discord server](https://discord.gg/rootme) and I covered 
 
 </details>
 
-![Discord Screenshot](assets/images/005_ct.png)
+![Discord Screenshot](../assets/images/005_ct.png)
 
 <details>
   <summary>translation</summary>
@@ -110,7 +110,7 @@ file Clean.png
 
 and we got this:
 
-![Clean.png](assets/images/006_ct.png)
+![Clean.png](../assets/images/006_ct.png)
 
 Yes it the same image, but this one weidght `160 Ko` the original weidght was `568 Ko`, the diferrence is so hudge !!!
 Now let's go find and clone the [Github repository](https://github.com/frankthetank-music/Acropalypse-Multi-Tool).
@@ -121,12 +121,12 @@ I also attempted to use the used the `Python` command but one of the two depende
 My last choice was to use `Pyenv` you can use a `virtuel environement` of `Python`, I configured it to the `3.11.9 version`.
 Finaly we got this.
 
-![Acropalypse-Multi-Tool1](assets/images/007_ct.png)
-![Acropalypse-Multi-Tool2](assets/images/008_ct.png)
+![Acropalypse-Multi-Tool1](../assets/images/007_ct.png)
+![Acropalypse-Multi-Tool2](../assets/images/008_ct.png)
 
 Witch result in this.
 
-![Restored.png](assets/images/009_ct.png)
+![Restored.png](../assets/images/009_ct.png)
 
 
 ## ⚠️ Difficulties
