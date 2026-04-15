@@ -70,7 +70,7 @@ I then checked the [Root-Me Discord server](https://discord.gg/rootme) and found
   **Itadown**
 
   *Hello,*  
-  *I’m stuck on this challenge—could someone give me a bit of help?*  
+  *I’m stuck on this challenge, could someone give me a bit of help?*  
   *Thanks in advance.*
 
   **lYuung**
@@ -144,10 +144,10 @@ First, enter the password in the answer field, then unlock the `KeePass` databas
 
 ## ⚠️ Difficulties
 
-At the beggining, I took ome time to find the right approach.  
+At the beggining, I took some time to find the right approach.  
 hopefully the [Root-Me Discord server](https://discord.gg/rootme) gave me a clue,  
 but the hardest part was using the tool, only one method in one environement actually worked.  
-It was really frustratiing to have the solution in my hands but not be able to use it.
+It was really frustrating to have the solution in my hands but not be able to use it.
 
 ## 📚 Lessons Learned
 
