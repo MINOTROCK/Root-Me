@@ -4,7 +4,7 @@ This repository contains all my write-ups for the Root Me CTF challenges I have 
 
 The goal is to document my progress on the Root Me platform.
 
-I want to reach 1000 points before September 2026.
+I want to reach 500 points before September 2026.
 
 Before reading the list, please note that a CSV and an Excel version is available, `LIST.csv` or `LIST.xlsx`.
 
