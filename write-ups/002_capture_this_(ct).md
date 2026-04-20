@@ -144,4 +144,10 @@ The hardest part was using the tool, only one method in one environement actuall
 
 ## 📚 Lessons Learned
 
+-File formats (like `.PNG`) rely on structured data and markers; cropping does not always remove underlying data and this concept applies to multiple formats.
 
+-Python virtual environments are essential to manage dependencies and run specialized or unstable tools reliably.
+
+-Persistence is key when facing exploitation or tooling issues, a correct approach may fail due to environment limitations.
+
+-The `Acropalypse` vulnerability demonstrates how improper image re-encoding can lead to unintended data disclosure and recovery of hidden content.
