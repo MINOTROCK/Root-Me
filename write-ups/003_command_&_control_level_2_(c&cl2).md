@@ -25,7 +25,7 @@ But since you have its memory dump you should be able to get it back!
 
 The validation flag is the workstation’s hostname.
 
-## 🔍 Initial Analysis](#)
+## 🔍 Initial Analysis
 
 
 
