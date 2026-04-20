@@ -8,7 +8,7 @@
 
 🟡 Level: Easy
 
-👤 Author: Thant0s
+👤 Author: Thanat0s
 
 🗓️ Date: 16/02/2013
 
