@@ -52,7 +52,7 @@ may not be user-friendly with some European Excel configurations.
 
 ---
 
-### [Command & Control - level 2](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/003_command_%26_control_level_2_(c%26cl2).md)
+### [Command & Control - level 2🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/003_command_%26_control_level_2_(c%26cl2).md)
 
 🔎 **Category: Forensic** 🏆 **Points: 15** 🟡 **Level: Easy** 👤 **Author: Thanat0s** 🗓️ **Date: 16/02/2013** ✅ **Validating: 20/04/2026**
 
