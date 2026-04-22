@@ -41,14 +41,33 @@ like it was the case in the CTF [deleted file🔗](https://github.com/MINOTROCK/
 ![Firste Step With nano](../assets/images/011_c&cl2.png)
 
 I checked the head of the dump with `nano`, nothing looks liked to a `workstation’s hostname`,  
-but now we now what kind of system it was, `Windows`, so now it's time for the B plan ! 
+but now we now what kind of system it was, `Windows`, now it's time for the B plan ! 
 
 The plan is very simple, I'll use `CheatEngine` to take some informations in the `RAM` memory of a `Windows` system.  
-Fortunately my computeur is under `Window`, let me show you what i did with `CheatEngine`
+Fortunately my computeur is under `Windows`, let me show you what I did with `CheatEngine`,  
+but first we have to check my `workstation’s hostname`
 
 ![Firste Step With nano](../assets/images/012_c&cl2.png)
 
+This is `msinfo32.exe` thank to it we know that my `workstation’s hostname` is `PC-PORTABLE`,  
+let's search this in my `RAM` memory with `CheatEngine`!
 
+![CheatEngine](../assets/images/013_c&cl2.png)
+
+ok just few explanations about my strategie, one program is really iimportant on `Windows`,  
+`Program Manager` without this the system doesn't work, it's 100% sure that the dump contains it working datas.  
+So I searched my `workstation’s hostname` in the working datas of `Program Manager` and bingo,  
+now we know that the `workstation’s hostname` can be find after the mention `USERDOMAIN_ROAMINGPROFILE`.
+
+I just have to search the partial or the entire mention with `grep` in the dump file.
+
+```bash
+grep -ab USERDOMAIN ch2.dump
+```
+
+![grep](../assets/images/014_c&cl2.png)
+
+Look, the `workstation’s hostname` is here above the 3 on the screenshots.
 
 ## ⚠️ Difficulties
 
