@@ -76,5 +76,6 @@ The challenge was solved in approximately 10 minutes.
 
 ### 📚 Lessons Learned
 
-- I learned how to navigate a raw memory dump and extract meaningful `strings` from a `binary` environment.
-- I identified that `Windows` environment variables act as reliable "anchors" to locate hidden system information.
+-I learned how to navigate a raw memory dump and extract meaningful `strings` from a `binary` environment.
+
+-I identified that `Windows` environment variables act as reliable "anchors" to locate hidden system information.
