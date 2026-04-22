@@ -27,39 +27,39 @@ The validation flag is the workstation’s hostname.
 
 ## 🔍 Initial Analysis
 
-The archive only contains a file naimed `ch2.dump`, the `.dump` clearly indiquate that the file is under `hexadecimal` format.  
-It's quitely adherent with the statement, cause the memoy dump also called the `RAM` dump is also work with `hexadecimal`.
+The archive only contains a file naimed `ch2.dump`, the extension clearly indicates that the file is in `hexadecimal` format.  
+This matches the statement, as a memory dump also called a `RAM` is typically analyzed in `hexadecimal`.
 
 ## 💡 Hypothesis
 
-as far as I know, when an `hexadecimal` file contain `string` datas, you can read them with every notepad,  
-`nano` might helps me to find the flag and if we are lucky the flag'll be near the head of the dump,  
-like it was the case in the CTF [deleted file🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/001_deleted_file_(df).md) .
+as far as I know, when an `hexadecimal` file contains `string` data, you can read it wuth any text editor,  
+I'll use `nano` to try and find the flag. If we’re lucky, it might be near the beginning of the dump,  
+similar to the [deleted file🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/001_deleted_file_(df).md) CTF.
 
 ## 🛠️ Exploitation
 
 ![Firste Step With nano](../assets/images/011_c&cl2.png)
 
-I checked the head of the dump with `nano`, nothing looks liked to a `workstation’s hostname`,  
-but now we now what kind of system it was, `Windows`, now it's time for the B plan ! 
+I checked the beginning of the dump with `nano`, I didn't see anything looking like a `workstation’s hostname`,  
+but I did confirm the operating system: `Windows`. Time for Plan B! 
 
-The plan is very simple, I'll use `CheatEngine` to take some informations in the `RAM` memory of a `Windows` system.  
-Fortunately my computeur is under `Windows`, let me show you what I did with `CheatEngine`,  
-but first we have to check my `workstation’s hostname`
+The plan is simple, I'll use `CheatEngine` to see how information is stored in a `Windows` system's `RAM`.  
+Since my own computer runs on `Windows`, I'll use it as a reference.    
+First, let's check my own `workstation’s hostname`
 
-![Firste Step With nano](../assets/images/012_c&cl2.png)
+![msinfo32.exe](../assets/images/012_c&cl2.png)
 
-This is `msinfo32.exe` thank to it we know that my `workstation’s hostname` is `PC-PORTABLE`,  
-let's search this in my `RAM` memory with `CheatEngine`!
+Using `msinfo32.exe` , I can see that my `hostname` is `PC-PORTABLE`.  
+Let’s search for this `string` in my `RAM` using `CheatEngine`.
 
 ![CheatEngine](../assets/images/013_c&cl2.png)
 
-ok just few explanations about my strategie, one program is really iimportant on `Windows`,  
-`Program Manager` without this the system doesn't work, it's 100% sure that the dump contains it working datas.  
-So I searched my `workstation’s hostname` in the working datas of `Program Manager` and bingo,  
-now we know that the `workstation’s hostname` can be find after the mention `USERDOMAIN_ROAMINGPROFILE`.
+Here is my strategy: a crucial program in `Windows`, is the `Program Manager`.  
+The system cannot function without it, so the dump will definitely contain its active data.  
+I searched for my `hostname` within the `Program Manager's` memory and—bingo!,  
+I found that the `hostname` often appears right after the string `USERDOMAIN_ROAMINGPROFILE`.
 
-I just have to search the partial or the entire mention with `grep` in the dump file.
+Now, I just need to search for that keyword in the challenge dump using `grep`:
 
 ```bash
 grep -ab USERDOMAIN ch2.dump
@@ -67,11 +67,12 @@ grep -ab USERDOMAIN ch2.dump
 
 ![grep](../assets/images/014_c&cl2.png)
 
-Look, the `workstation’s hostname` is here above the 3 on the screenshots.
+Look, the `workstation’s hostname` is here above the 3 on the screenshots., we also can see the username in white.
 
 ## ⚠️ Difficulties
 
-
+No significant difficulties were encountered.    
+The challenge was solved in approximately 10 minutes.
 
 ### 📚 Lessons Learned
 
