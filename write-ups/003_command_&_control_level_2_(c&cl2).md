@@ -67,7 +67,8 @@ grep -ab USERDOMAIN ch2.dump
 
 ![grep](../assets/images/014_c&cl2.png)
 
-Look, the `workstation’s hostname` is here above the 3 on the screenshots., we also can see the username in white.
+Look! The `workstation’s hostname` is right there (indicated by the "3" on the screenshot).  
+We can also see the username highlighted in white.
 
 ## ⚠️ Difficulties
 
