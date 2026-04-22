@@ -24,7 +24,7 @@ may not be user-friendly with some European Excel configurations.
 
 ## List
 
-### [ Deleted file🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/001_deleted_file_(df).md)
+### [Deleted file🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/001_deleted_file_(df).md)
 
 🔎 **Category:** Forensic 🏆 **Points:** 5 🟢 **Level:** Very easy 👤 **Author:** Manah 🗓️ **Date:** 24/05/2023 ✅ **Validating:** 05/04/2026  
 
