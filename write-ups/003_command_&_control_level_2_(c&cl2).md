@@ -38,6 +38,16 @@ like it was the case in the CTF [deleted file🔗](https://github.com/MINOTROCK/
 
 ## 🛠️ Exploitation
 
+![Firste Step With nano](../assets/images/011_c&cl2.png)
+
+I checked the head of the dump with `nano`, nothing looks liked to a `workstation’s hostname`,  
+but now we now what kind of system it was, `Windows`, so now it's time for the B plan ! 
+
+The plan is very simple, I'll use `CheatEngine` to take some informations in the `RAM` memory of a `Windows` system.  
+Fortunately my computeur is under `Window`, let me show you what i did with `CheatEngine`
+
+![Firste Step With nano](../assets/images/012_c&cl2.png)
+
 
 
 ## ⚠️ Difficulties
