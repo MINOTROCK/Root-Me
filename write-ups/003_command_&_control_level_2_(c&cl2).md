@@ -32,7 +32,7 @@ This matches the statement, as a memory dump also called a `RAM` is typically an
 
 ## 💡 Hypothesis
 
-as far as I know, when an `hexadecimal` file contains `string` data, you can read it wuth any text editor,  
+as far as I know, when an `hexadecimal` file contains `string` data, you can read it with any text editor,  
 I'll use `nano` to try and find the flag. If we’re lucky, it might be near the beginning of the dump,  
 similar to the [deleted file🔗](https://github.com/MINOTROCK/Root-Me/blob/main/write-ups/001_deleted_file_(df).md) CTF.
 
